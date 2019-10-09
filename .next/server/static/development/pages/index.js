@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -479,8 +479,8 @@ const SlideShow = () => {
 
   const showSlide = n => {
     var i;
-    const slides = document.getElementsByClassName('mySlides___2oXCc');
-    const dots = document.getElementsByClassName("dot___316xS");
+    const slides = slideImages.map((img, index) => document.getElementById(`mySlide${index}`));
+    const dots = slideImages.map((img, index) => document.getElementById(`dot${index}`));
 
     if (n > slides.length) {
       slideIndex = 1;
@@ -495,11 +495,11 @@ const SlideShow = () => {
     }
 
     for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active___2g1BY", "");
+      dots[i].className = _Sass_sileShowStyle_scss__WEBPACK_IMPORTED_MODULE_1___default.a.dot;
     }
 
     slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active___2g1BY";
+    dots[slideIndex - 1].className += ' ' + _Sass_sileShowStyle_scss__WEBPACK_IMPORTED_MODULE_1___default.a.active;
   };
 
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
@@ -731,10 +731,8 @@ const ContextProvider = props => {
   };
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
     const language = (window.navigator.userLanguage || window.navigator.language) + '';
-    console.log(language);
     let brwLang = ['en', 'English'];
     if (language.indexOf('ar') !== -1) brwLang = ['ar', 'العربية'];else if (language.indexOf('fa') !== -1) brwLang = ['fa', 'فارسی'];else if (language.indexOf('fr') !== -1) brwLang = ['fr', 'français'];else if (language.indexOf('de') !== -1) brwLang = ['de', 'Deutsch'];
-    console.log(language.indexOf('de'));
     setLang(brwLang);
   }, [setLang]);
   return __jsx(Context.Provider, {
@@ -2483,7 +2481,7 @@ const index = () => {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

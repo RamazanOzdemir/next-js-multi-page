@@ -50,7 +50,6 @@ const ContextProvider = (props) => {
 
     useEffect(()=>{
         const language = (window.navigator.userLanguage || window.navigator.language)+'';
-        console.log(language);
         let brwLang = ['en','English'];
         
               if(language.indexOf('ar') !== -1)
@@ -63,7 +62,6 @@ const ContextProvider = (props) => {
                 brwLang = ['de','Deutsch'];
          
         
-        console.log(language.indexOf('de'));
         setLang(brwLang);
     },[setLang]);
 

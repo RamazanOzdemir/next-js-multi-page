@@ -240,10 +240,8 @@ const ContextProvider = props => {
   };
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
     const language = (window.navigator.userLanguage || window.navigator.language) + '';
-    console.log(language);
     let brwLang = ['en', 'English'];
     if (language.indexOf('ar') !== -1) brwLang = ['ar', 'العربية'];else if (language.indexOf('fa') !== -1) brwLang = ['fa', 'فارسی'];else if (language.indexOf('fr') !== -1) brwLang = ['fr', 'français'];else if (language.indexOf('de') !== -1) brwLang = ['de', 'Deutsch'];
-    console.log(language.indexOf('de'));
     setLang(brwLang);
   }, [setLang]);
   return __jsx(Context.Provider, {

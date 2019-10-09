@@ -17,20 +17,23 @@ const SlideShow = () => {
     
     const showSlide = (n)=>{
         var i;
-        const slides = document.getElementsByClassName('mySlides___2oXCc');
+        const slides = slideImages.map((img,index)=>(
+            document.getElementById(`mySlide${index}`)
+        ));
        
-        const dots = document.getElementsByClassName("dot___316xS");
-    
+        const dots = slideImages.map((img,index)=>(
+            document.getElementById( `dot${index}`)
+        ));
        if (n > slides.length) {slideIndex = 1}
        if (n < 1) {slideIndex = slides.length}
        for (i = 0; i < slides.length; i++) {
            slides[i].style.display = "none";
        }
        for (i = 0; i < dots.length; i++) {
-           dots[i].className = dots[i].className.replace(" active___2g1BY", "");
+           dots[i].className = slideShowStyle.dot;
        }
        slides[slideIndex-1].style.display = "block";
-       dots[slideIndex-1].className += " active___2g1BY";
+       dots[slideIndex-1].className += (' '+slideShowStyle.active);
       
     };
     useEffect(()=>{

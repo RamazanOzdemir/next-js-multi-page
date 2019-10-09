@@ -299,8 +299,12 @@ var SlideShow = function SlideShow() {
 
   var showSlide = function showSlide(n) {
     var i;
-    var slides = document.getElementsByClassName('mySlides___2oXCc');
-    var dots = document.getElementsByClassName("dot___316xS");
+    var slides = slideImages.map(function (img, index) {
+      return document.getElementById("mySlide".concat(index));
+    });
+    var dots = slideImages.map(function (img, index) {
+      return document.getElementById("dot".concat(index));
+    });
 
     if (n > slides.length) {
       slideIndex = 1;
@@ -315,11 +319,11 @@ var SlideShow = function SlideShow() {
     }
 
     for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active___2g1BY", "");
+      dots[i].className = _Sass_sileShowStyle_scss__WEBPACK_IMPORTED_MODULE_1___default.a.dot;
     }
 
     slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active___2g1BY";
+    dots[slideIndex - 1].className += ' ' + _Sass_sileShowStyle_scss__WEBPACK_IMPORTED_MODULE_1___default.a.active;
   };
 
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
@@ -553,10 +557,8 @@ var ContextProvider = function ContextProvider(props) {
   };
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     var language = (window.navigator.userLanguage || window.navigator.language) + '';
-    console.log(language);
     var brwLang = ['en', 'English'];
     if (language.indexOf('ar') !== -1) brwLang = ['ar', 'العربية'];else if (language.indexOf('fa') !== -1) brwLang = ['fa', 'فارسی'];else if (language.indexOf('fr') !== -1) brwLang = ['fr', 'français'];else if (language.indexOf('de') !== -1) brwLang = ['de', 'Deutsch'];
-    console.log(language.indexOf('de'));
     setLang(brwLang);
   }, [setLang]);
   return __jsx(Context.Provider, {
@@ -11289,7 +11291,7 @@ var index = function index() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!**************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Crmzn%5CDesktop%5CREACT%5Ctremglobal%5Cpages%5Cindex.js ***!
   \**************************************************************************************************************************************/
@@ -11312,5 +11314,5 @@ module.exports = dll_13346faca0e924a89b24;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

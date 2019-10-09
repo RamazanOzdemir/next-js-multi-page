@@ -1,0 +1,196 @@
+.navbar___27OOt {
+  position: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  background: #333;
+  z-index: 1000; }
+
+.logo___2Mwgt {
+  width: 20%;
+  margin: 10px 20px; }
+  .logo___2Mwgt img {
+    height: 40px; }
+
+.menu___1rjuA {
+  width: 70%; }
+
+.menu__top___1Gv5e, .menu__bottom___34390 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  height: 48%; }
+
+.menu__top___1Gv5e {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.dropdown___2vSN_ {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.lang__content___4Vh4z, .money__content___2GlXH, .properties__content___3lpRG {
+  display: none;
+  position: absolute;
+  width: 100px;
+  background-color: #333;
+  color: #ddd;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10; }
+
+.money__content___2GlXH {
+  width: 30px;
+  margin: 0 6px; }
+
+.properties__content___3lpRG {
+  width: 300px; }
+
+.dropdown__lang___2D4--, .dropdown__money___3c92V {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 110px;
+  color: #ddd;
+  outline: none;
+  background-color: inherit;
+  padding: 0; }
+  .dropdown__lang___2D4--:hover, .dropdown__money___3c92V:hover {
+    color: #fff;
+    border: 1px solid #fff; }
+
+.dropdown__money___3c92V {
+  width: 30px;
+  margin: 0 6px; }
+
+.dropdown__properties___3scGF {
+  position: relative;
+  color: #ddd;
+  outline: none; }
+
+.flag___1EWgA {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+  width: 100%;
+  border-radius: 6px; }
+  .flag___1EWgA img {
+    height: 25px;
+    margin: 0px 5px; }
+  .flag___1EWgA span {
+    font-size: 15px; }
+  .flag___1EWgA:hover {
+    background: #000; }
+    .flag___1EWgA:hover span {
+      color: #fff; }
+
+.money___1Zemd {
+  font-size: 16px;
+  padding: 3px 4px;
+  margin: 0;
+  text-align: center;
+  border-radius: 6px; }
+  .money___1Zemd:hover {
+    background: #000; }
+
+.properties___Mw8zg {
+  font-size: 1.5vw;
+  padding: 3px 4px;
+  margin: 0;
+  text-decoration: none;
+  color: #ddd;
+  text-align: left;
+  display: block; }
+  .properties___Mw8zg:hover {
+    color: #fff;
+    background: #000; }
+
+.follow__menu___3zkbQ {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 10px; }
+  .follow__menu___3zkbQ a {
+    text-decoration: none;
+    margin: auto 10px;
+    font-size: 22px;
+    color: #ddd; }
+    .follow__menu___3zkbQ a:hover {
+      color: #fff;
+      background: #000; }
+
+.menu__bottom___34390 {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.menu__button___3QXI0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  font-size: 1.7vw;
+  text-decoration: none;
+  color: #ddd;
+  padding: 6px 15px 0 15px; }
+  .menu__button___3QXI0:hover {
+    color: #fff;
+    background: #000; }
+  .menu__button___3QXI0 div {
+    width: 0px;
+    margin-left: 3px; }
+
+.downTriAngle___cEhgv {
+  border-color: transparent;
+  border-top-color: #ddd;
+  border-style: solid;
+  border-width: 10px;
+  border-left-width: 6px;
+  border-right-width: 6px;
+  border-bottom: none; }
+  .downTriAngle___cEhgv:hover {
+    border-top-color: #fff; }
+
+.main___10XBn {
+  width: 100%;
+  margin: 60px 0 0 0;
+  padding: 0; }
+

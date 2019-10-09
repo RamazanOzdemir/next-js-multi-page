@@ -1,0 +1,41 @@
+{
+  "devFiles": [],
+  "pages": {
+    "/": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/css/commons.7ccf9d26.chunk.css",
+      "static/chunks/commons.e0e41c16de90c4ed28c1.js",
+      "static/css/styles.27b1071e.chunk.css",
+      "static/chunks/styles.aae6cf7b73c29e717e73.js",
+      "static/runtime/main-1827f683e9a8d3a6e346.js"
+    ],
+    "/_app": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/css/commons.7ccf9d26.chunk.css",
+      "static/chunks/commons.e0e41c16de90c4ed28c1.js",
+      "static/runtime/main-1827f683e9a8d3a6e346.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/css/commons.7ccf9d26.chunk.css",
+      "static/chunks/commons.e0e41c16de90c4ed28c1.js",
+      "static/runtime/main-1827f683e9a8d3a6e346.js"
+    ],
+    "/about": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/css/commons.7ccf9d26.chunk.css",
+      "static/chunks/commons.e0e41c16de90c4ed28c1.js",
+      "static/css/styles.27b1071e.chunk.css",
+      "static/chunks/styles.aae6cf7b73c29e717e73.js",
+      "static/runtime/main-1827f683e9a8d3a6e346.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-4b444dab214c6491079c.js",
+      "static/css/commons.7ccf9d26.chunk.css",
+      "static/chunks/commons.e0e41c16de90c4ed28c1.js",
+      "static/css/styles.27b1071e.chunk.css",
+      "static/chunks/styles.aae6cf7b73c29e717e73.js",
+      "static/runtime/main-1827f683e9a8d3a6e346.js"
+    ]
+  }
+}

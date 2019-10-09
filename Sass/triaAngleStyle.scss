@@ -1,0 +1,16 @@
+$navbarActive: #fff;
+$navbarPasif: #ddd;
+
+.downTriAngle{
+    border-color: transparent;
+    border-top-color: $navbarPasif;
+
+    border-style: solid;
+    border-width: 10px;
+    border-left-width: 6px;
+    border-right-width: 6px;
+    border-bottom: none;
+    &:hover{
+        border-top-color: $navbarActive;
+    }
+}

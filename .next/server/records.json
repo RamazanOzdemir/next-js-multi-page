@@ -17,19 +17,24 @@
   },
   "chunks": {
     "byName": {
-      "static\\0JAAF5CrsKJXwIoUAUsXj\\pages\\_app.js": 0,
-      "static\\0JAAF5CrsKJXwIoUAUsXj\\pages\\_document.js": 1,
-      "static\\0JAAF5CrsKJXwIoUAUsXj\\pages\\_error.js": 2,
-      "static\\0JAAF5CrsKJXwIoUAUsXj\\pages\\about.js": 3,
-      "static\\0JAAF5CrsKJXwIoUAUsXj\\pages\\index.js": 4
+      "static\\zThO4IbVXoZfu7mZm_Lb7\\pages\\_app.js": 0,
+      "static\\zThO4IbVXoZfu7mZm_Lb7\\pages\\_document.js": 1,
+      "static\\zThO4IbVXoZfu7mZm_Lb7\\pages\\_error.js": 2,
+      "static\\zThO4IbVXoZfu7mZm_Lb7\\pages\\about.js": 3,
+      "static\\zThO4IbVXoZfu7mZm_Lb7\\pages\\index.js": 4,
+      "static\\aMF442SPJit3qTiSSKn_D\\pages\\_app.js": 5,
+      "static\\aMF442SPJit3qTiSSKn_D\\pages\\_document.js": 6,
+      "static\\aMF442SPJit3qTiSSKn_D\\pages\\_error.js": 7,
+      "static\\aMF442SPJit3qTiSSKn_D\\pages\\about.js": 8,
+      "static\\aMF442SPJit3qTiSSKn_D\\pages\\index.js": 9
     },
     "bySource": {},
     "usedIds": [
-      0,
-      1,
-      2,
-      3,
-      4
+      5,
+      6,
+      7,
+      8,
+      9
     ]
   }
 }

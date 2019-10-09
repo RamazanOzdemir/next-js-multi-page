@@ -1,21 +1,4 @@
 {
-  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!Sass/home.scss": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!Sass/about.scss": [
     {
       "modules": {
@@ -33,7 +16,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!Sass/mainStyle.scss": [
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!Sass/home.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -51,6 +34,23 @@
     }
   ],
   "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!Sass/sileShowStyle.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/sass-loader/lib/loader.js??ref--5-3!Sass/mainStyle.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -125,21 +125,25 @@
       "static/runtime/webpack.js": 1,
       "styles": 2,
       "static/runtime/main.js": 3,
-      "static\\0JAAF5CrsKJXwIoUAUsXj\\pages\\_app.js": 4,
-      "static\\0JAAF5CrsKJXwIoUAUsXj\\pages\\_error.js": 5,
-      "static\\0JAAF5CrsKJXwIoUAUsXj\\pages\\about.js": 6,
-      "static\\0JAAF5CrsKJXwIoUAUsXj\\pages\\index.js": 7
+      "static\\zThO4IbVXoZfu7mZm_Lb7\\pages\\_app.js": 4,
+      "static\\zThO4IbVXoZfu7mZm_Lb7\\pages\\_error.js": 5,
+      "static\\zThO4IbVXoZfu7mZm_Lb7\\pages\\about.js": 6,
+      "static\\zThO4IbVXoZfu7mZm_Lb7\\pages\\index.js": 7,
+      "static\\aMF442SPJit3qTiSSKn_D\\pages\\_app.js": 8,
+      "static\\aMF442SPJit3qTiSSKn_D\\pages\\_error.js": 9,
+      "static\\aMF442SPJit3qTiSSKn_D\\pages\\about.js": 10,
+      "static\\aMF442SPJit3qTiSSKn_D\\pages\\index.js": 11
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
+      10,
+      11,
       2,
       3,
-      4,
-      5,
-      6,
-      7
+      8,
+      9
     ]
   }
 }

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2483,14 +2483,14 @@ const index = () => {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! c:\Users\rmzn\Desktop\REACT\tremglobal\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\rmzn\Desktop\REACT\tremglobal\pages\index.js */"./pages/index.js");
 
 
 /***/ }),

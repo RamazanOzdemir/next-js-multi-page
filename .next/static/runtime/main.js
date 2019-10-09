@@ -4818,7 +4818,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "c:\\Users\\rmzn\\Desktop\\REACT\\tremglobal\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\rmzn\\Desktop\\REACT\\tremglobal\\.next");
       return error;
     }
   };
